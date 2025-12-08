@@ -20,11 +20,9 @@ tr->parent = parent;
 tr->left = parent->left;
 tr->right = NULL;
 
-if (parent->left == NULL)
-parent->left = tr;
-else
-tr->left = parent->left;
+if (parent->left != NULL)
 parent->left->parent = tr;
+
 parent->left = tr;
 return (tr);
 }
