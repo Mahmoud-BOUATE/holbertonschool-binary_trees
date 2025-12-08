@@ -17,7 +17,7 @@ return (NULL);
 
 tr->n = value;
 tr->parent = parent;
-tr->left = NULL;
+tr->left = parent->left;
 tr->right = NULL;
 
 if (parent->left == NULL)
