@@ -1,3 +1,4 @@
+#include "binary_trees.h"
 /**
  * binary_tree_is_full - Vérifie si un arbre binaire est full
  * @tree: Pointeur vers la racine de l'arbre
